@@ -64,7 +64,7 @@ static VALUE recode_if_needed(VALUE self, VALUE str, int dir) {
         to = enc_utf8;
     }
     if ( rb_str_equal(enc, enc_iso8859_1) == Qfalse && rb_str_equal(enc, enc_utf8) == Qfalse) {
-        rb_funcall(str, "force_encoding", 1, enc_utf8);
+        rb_funcall(str, rb_intern("force_encoding"), 1, enc_utf8);
         return rb_funcall(rb_cIconv, rb_intern("conv"), 3, to, from, str);
     } else {
         return str;
