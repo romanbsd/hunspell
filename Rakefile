@@ -16,7 +16,7 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "hunspell"
+    gem.name = "hunspell-i18n"
     gem.summary = %Q{Ruby bindings for libhunspell-1.2 with i18n support}
     gem.description = gem.summary
     gem.email = "romanbsd@yahoo.com"
