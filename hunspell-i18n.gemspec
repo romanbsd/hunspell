@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "ext/extconf.rb",
     "ext/hunspell_wrap.c",
-    "hunspell.gemspec",
+    "hunspell-i18n.gemspec",
     "spec/hunspell_spec.rb",
     "spec/spec_helper.rb"
   ]
