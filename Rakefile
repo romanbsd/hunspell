@@ -1,5 +1,5 @@
 require 'rake'
-require 'rake/rdoctask'
+require 'rdoc/task'
 
 desc 'Default: create gemspec'
 task :default => :gemspec
